@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: Roboto, 'Courier New', Courier, monospace;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 .section-1,
 .section-2,
@@ -127,6 +131,31 @@ blockquote{
     text-align: right;
 }
 
+/*section-4*/
+.action-container{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 48px;
+}
+
+.action-title{
+    color: white;
+    font-weight: 700;
+}
+
+.action-content{
+    color: white;
+}
+
+.action-btn{
+    border: 1px solid white;
+}
+
 /*footer*/
 .footer{
     display: flex;
@@ -134,4 +163,9 @@ blockquote{
     align-items: center;
     background-color: #1F2937;
     color: white;
+}
+
+.footer-content{
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
