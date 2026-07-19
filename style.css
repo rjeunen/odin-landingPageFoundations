@@ -1,3 +1,5 @@
+/*General*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@
 .section-4{
     padding: 0 10%;
 }
+
+/*section 1*/
 
 .section-1{
     background-color: #1F2937;
@@ -46,7 +50,7 @@ h1{
     font-weight: 900;
 }
 
-p{
+.header-text{
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 8px;
@@ -65,9 +69,47 @@ img{
     height: 200px;
 }
 
+/*setion-2*/
+
+.info-title{
+    text-align: center;
+    margin: 32px 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.card-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid rgb(42, 133, 236);
+}
+
+.card-text{
+    text-align: center;
+    margin-top: 8px;
+}
+
+/*footer*/
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    color: white;
 }
