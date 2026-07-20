@@ -3,11 +3,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: Roboto, 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .section-1,
@@ -15,6 +17,7 @@ body{
 .section-3,
 .section-4{
     padding: 0 10%;
+    flex: 1;
 }
 
 /*section 1*/
